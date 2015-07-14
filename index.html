@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-<html>
+<!-- html>head>link[href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css"][rel="stylesheet"][type="text/css"]+script[src="https://code.jquery.com/jquery-1.11.3.min.js"]+script[src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"]+link[href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"][rel="stylesheet"][type="text/css"]+script[src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"]+script[src="https://fb.me/react-0.13.3.min.js"]+script[src="https://fb.me/JSXTransformer-0.13.3.js"]+link[href="css/style.css"][rel="stylesheet"][type="text/css"]+title{React Bulletin Board}^body>div#react-container+script[src="js/Note.js" type="text/jsx"] -->
 
+<html>
 <head>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://fb.me/react-0.13.3.min.js"></script>
     <!--<script src="https://fb.me/JSXTransformer-0.13.3.js"></script>-->
-    <title>My First React File</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>React Bulletin Board</title>
 </head>
-
 <body>
-    <script src="build/HelloWorld.js"></script>
+    <div id="react-container"></div>
+    <!--<script src="js/Note.js" type="text/jsx"></script>-->
+    <script src="build/Note.js"></script>
+    <script src="build/Board.js"></script>
+    <script src="build/main.js"></script>
 </body>
-
 </html>

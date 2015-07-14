@@ -1,0 +1,23 @@
+{
+  "name": "react_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Note.js",
+  "scripts": {
+    "start": "jsx js/ build/ & start http://localhost:4321 & httpster -p 4321"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonykung06/react_sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonykung06/react_sample/issues"
+  },
+  "homepage": "https://github.com/tonykung06/react_sample#readme",
+  "dependencies": {
+    "httpster": "^1.0.1",
+    "react-tools": "^0.13.3"
+  }
+}
