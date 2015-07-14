@@ -22,12 +22,21 @@
             componentDidMount: function() {
                 alert('component did mount');
             },
+            componentWillUnmount: function() {
+                alert('component will be unmounted');
+            },
             render: function() {
                 return (<div></div>);
             }
         });
 
         React.render(<Box />, document.body);
+
+        var getRidOfBox = document.getElementsByTagName('div')[0];
+        getRidOfBox.onclick = function() {
+            React.unmountComponentAtNode(document.body);
+            alert('component is unmounted');
+        };
     </script>
 </body>
 
